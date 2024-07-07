@@ -1,0 +1,17 @@
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\bin\Debug\InventorySys.exe.config
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\bin\Debug\InventorySys.exe
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\bin\Debug\InventorySys.pdb
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.csproj.AssemblyReference.cache
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.Properties.Resources.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.HomePage.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.csproj.GenerateResource.cache
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.csproj.CoreCompileInputs.cache
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.exe
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.pdb
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Home_Log.LogPage.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Product.ProductPage.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Product.ProductDetail.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Product.AddStock.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Product.AddProduct.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Product.EditProduct.resources
+C:\Users\Baby Bob\Desktop\.Net\InventorySys\InventorySys\obj\Debug\InventorySys.View.Home_Log.AppName.resources

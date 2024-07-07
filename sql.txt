@@ -1,0 +1,27 @@
+SELECT COUNT(*) AS count, emp_id FROM tbl_user WHERE usr_us = 'nun' AND usr_pass = 'nun'
+
+SELECT * FROM tbl_product
+select * from tbl_procate
+select * from tbl_prostatus
+select * from tbl_proadd
+select * from tbl_prosale
+select * from tbl_logrecord
+select * from tbl_user
+
+truncate table tbl_proadd
+
+
+SELECT p.pro_id, ISNULL(p.pro_photo, 0 )AS photo, p.pro_name, ISNULL(c.name, 0) AS cat, ISNULL(b.name, 0) AS bra, ISNULL(p.pro_qty, 0) AS qty, ISNULL(p.pro_price, 0) AS price, ISNULL(p.pro_status, 0) AS status FROM tbl_product p LEFT JOIN tbl_procate c ON p.cat_id = c.id LEFT JOIN tbl_probrand b ON p.bra_id = b.id WHERE pro_isdelete < 1 AND pro_name LIKE '%%' AND cat_id = 1
+
+SELECT p.pro_id, ISNULL(p.pro_photo, 0 )AS photo, p.pro_name, ISNULL(c.name, 0) AS cat, ISNULL(b.name, 0) AS bra, ISNULL(p.pro_qty, 0) AS qty, ISNULL(p.pro_price, 0) AS price, ISNULL(s.name, 0) AS status FROM tbl_product p LEFT JOIN tbl_procate c ON p.cat_id = c.id LEFT JOIN tbl_probrand b ON p.bra_id = b.id LEFT JOIN tbl_prostatus s ON p.pro_id = s.id WHERE p.pro_id = 2
+
+SELECT ISNULL(p.pro_photo, 0 )AS photo, p.pro_name, ISNULL(c.name, 0) AS cat, ISNULL(b.name, 0) AS bra, ISNULL(p.pro_qty, 0) AS qty, ISNULL(p.pro_price, 0) AS price, ISNULL(s.name, 0) AS status FROM tbl_product p LEFT JOIN tbl_procate c ON p.cat_id = c.id LEFT JOIN tbl_probrand b ON p.bra_id = b.id LEFT JOIN tbl_prostatus s ON p.pro_id = s.id WHERE p.pro_id = 2
+
+SELECT ISNULL(pro_photo, 0 )AS photo, pro_name, ISNULL(pro_qty, 0) AS qty FROM tbl_product WHERE pro_id = 2
+
+SELECT SUM(qty) AS qty FROM tbl_proadd WHERE pro_id = 2
+SELECT SUM(qty) AS qty FROM tbl_prosale
+
+SELECT SUM(qty) AS qty - SUM(qty) AS qty FROM tbl_proadd a
+
+UPDATE tbl_product SET pro_isdelete = 0 WHERE pro_id = 2
